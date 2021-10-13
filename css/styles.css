@@ -347,17 +347,6 @@ header {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
-.checkbox-input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
 .checkbox-input:checked + .checkbox-icon {
   border-color: transparent;
   background-image: url(../images/icon-check.svg);
